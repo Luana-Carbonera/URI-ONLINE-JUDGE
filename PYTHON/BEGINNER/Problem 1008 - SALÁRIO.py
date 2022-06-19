@@ -3,8 +3,7 @@
 A = int(input())
 B = int(input())
 C = float(input())
+SALARIO = float(B * C)
 
-salario = float(B * C)
-
-print("NUMBER = %d" %A)
-print("SALARY = U$ %0.2f" %salario)
+print("NÚMERO = %d" % A)
+print("SALÁRIO = U $ %0.2f" % SALARIO)
